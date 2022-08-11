@@ -21,7 +21,7 @@ Hai 👋
 ┗━━━•❅•°•❈
 Contact person Owner:
 wa.me/6281511480762 (Owner)`
-let message = await prepareWAMessageMedia({ image: {url: 'https://i.postimg.cc/C1BfTNk2/6bfc0fa448e61d8f7fe5323fcfd28518.jpg' }}, { upload: conn.waUploadToServer })
+let message = await prepareWAMessageMedia({ image: {url: 'https://i.postimg.cc/jS7GVrvZ/thumbnail.jpg' }}, { upload: conn.waUploadToServer })
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
          hydratedTemplate: {
@@ -31,14 +31,14 @@ let message = await prepareWAMessageMedia({ image: {url: 'https://i.postimg.cc/C
            hydratedButtons: [{
              urlButton: {
                displayText: 'Dana',
-               phoneNumber: '081511480762'
+               phoneNumber: '081332995497'
              }
 
            },
                {
              callButton: {
                displayText: 'Gopay',
-               phoneNumber: '081511480762'
+               phoneNumber: '081332995497'
              }
            },           
                {
